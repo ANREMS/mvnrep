@@ -1,0 +1,9 @@
+<suite name="REMSPortal">
+	<test name="REMSPortal_Testing_Chrome">
+	<parameter name="browser" value="chrome"/>
+		 <classes>
+		    <class name="REMS.SanityTest"/>
+		   <class name="REMS.ReTest"/>
+		 </classes>
+	</test>		
+</suite>
